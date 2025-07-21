@@ -1,86 +1,64 @@
+Here is your **Alpine.js Crash Course** content, converted to clean Markdown format for a `README.md` file — all HTML tags are removed and proper indentation/formatting is applied:
+
+---
+
 # Alpine Crash Course
 
-```
-<ul class="mt-4 text-2xl list-disc">
-        <li>
-          <strong><i>Attributes</i></strong>
-          <ul class="list-disc ml-12">
-            <li>x-data, x-text, x-html</li>
-            <li>x-data with methods</li>
-            <li>Re-usable Data</li>
-            <li>Data-less compoenents</li>
-            <li>Data coming from store</li>
-            <li>x-init</li>
-            <li>Scoping</li>
-            <li>Getters and Setters</li>
-            <li>x-show & x-transition</li>
-            <li>x-if</li>
-            <li>x-for</li>
-            <li>x-for in range</li>
-            <li>x-bind:class</li>
-            <li>x-bind:style</li>
-            <li>x-bind:id</li>
-            <li>x-on</li>
-            <li>x-model</li>
-            <li>
-              Challage: Crate a button and 3 inputs.
-              <ul class="ml-4 list-decimal">
-                <li>
-                  Input for text. Whatever you write inside the input that
-                  should become the text of the button
-                </li>
-                <li>
-                  Input for background color. Whatever you type color inside the
-                  input and that will become button background clor
-                </li>
-                <li>
-                  Input for button id. Whatever you type inside that will become
-                  button id
-                </li>
-              </ul>
-            </li>
-            <li>x-effect</li>
-            <li>x-ignore</li>
-            <li>x-ref</li>
-            <li>x-cloak</li>
-            <li>x-teleport</li>
-          </ul>
-        </li>
+## Attributes
 
-        <!-- #Magic Properties -->
-        <li>
-          <strong><i>Magic properties</i></strong>
-          <ul class="pl-12 list-disc">
-            <li>$el</li>
-            <li>$refs</li>
-            <li>$store</li>
-            <li>$watch</li>
-            <li>$dispatch</li>
-          </ul>
-        </li>
-        <!-- #component -->
-        <li>
-          <strong><i>Component</i></strong>
-          <ul class="pl-12 list-disc">
-            <li>Dropdown</li>
-            <li>Modal</li>
-            <li>Tabs</li>
-            <li>Carousel</li>
-            <li>Accordion</li>
-            <li>Notifications</li>
-            <li>Popover</li>
-          </ul>
-        </li>
-        <!-- #plugins -->
-        <li>
-          <strong><i>Plugins</i></strong>
-          <ul class="pl-12 list-disc">
-            <li>Mask</li>
-            <li>Persist</li>
-            <li>Focus</li>
-            <li>Collapse</li>
-            <li>Morph</li>
-          </ul>
-        </li>
-      </ul>
-```
+- **x-data, x-text, x-html**
+- **x-data with methods**
+- **Re-usable Data**
+- **Data-less components**
+- **Data coming from store**
+- **x-init**
+- **Scoping**
+- **Getters and Setters**
+- **x-show & x-transition**
+- **x-if**
+- **x-for**
+- **x-for in range**
+- **x-bind\:class**
+- **x-bind\:style**
+- **x-bind\:id**
+- **x-on**
+- **x-model**
+- **Challenge: Create a button and 3 inputs:**
+
+  1. Input for text — whatever you write should become the text of the button.
+  2. Input for background color — sets the button's background color.
+  3. Input for button ID — sets the button's `id` attribute.
+
+- **x-effect**
+- **x-ignore**
+- **x-ref**
+- **x-cloak**
+- **x-teleport**
+
+## Magic Properties
+
+- **\$el**
+- **\$refs**
+- **\$store**
+- **\$watch**
+- **\$dispatch**
+
+## Components
+
+- **Dropdown**
+- **Modal**
+- **Tabs**
+- **Carousel**
+- **Accordion**
+- **Notifications**
+- **Popover**
+
+## Plugins
+
+- **Mask**
+- **Persist**
+- **Focus**
+- **Collapse**
+- **Morph**
+
+---
